@@ -30,7 +30,7 @@ public class references {
 		dref.add(12, 13);
 		
 		Messenger mref = Message::new; //Constructor referencing 
-		mref.getMessages("Hey!!!");
+		mref.getMessages("Constructor Referencing!!!");
 	}
 
 }
