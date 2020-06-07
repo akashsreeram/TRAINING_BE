@@ -15,7 +15,7 @@ interface Messenger{
 }
 class Message{
 	Message(String msg){
-		System.out.println("Message is:" + msg);
+		System.out.println("Message is: " + msg);
 	}
 }
 public class references {
