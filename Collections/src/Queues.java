@@ -4,11 +4,11 @@ public class Queues {
 
 	public static void main(String[] args) {
 		ArrayBlockingQueue queue = new ArrayBlockingQueue(5);
-		queue.offer("One");
+		queue.offer("Five");
 		queue.offer("Two");
 		queue.offer("Three");
+		queue.offer("One");
 		queue.offer("Four");
-		queue.offer("Five");
 		queue.offer("Six"); //will not get added
 		System.out.println(queue);
 		String ah = (String) queue.poll();
